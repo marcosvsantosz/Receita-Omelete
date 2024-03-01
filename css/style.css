@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@media (max-width:376px){
+    .central img{
+        border-radius: 0px !important;
+    }
+
+    .central{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .centraltext{
+        padding:25px;
+    }
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: hsl(30, 54%, 90%) ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.central{
+    background-color: white;
+    display: flex;
+    max-width: 735px;
+    border-radius: 20px;
+    margin-top: 110px;
+    padding: 40px;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.central img{
+    max-width: 100%;
+    border-radius:  20px;
+}
+
+.titulo{
+    padding: 20px;
+}
+
+.titulo p{
+    margin-top: 20px;
+}
+
+.time{
+    background-color:hsla(332, 51%, 32%, 0.089) ;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.time li{
+    padding: 5px;
+}
+
+.time h4{
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    margin-top: 25px;
+    padding: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+
+.ingredients h2{
+    margin-bottom: 10px;
+}
+
+.ingredients li{
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.tab{
+    display: flex;
+    flex-direction:row;
+    max-width: 660px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tab li{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.calor{
+    width: 50%;
+    list-style: none;
+}
+
+.valor{
+    width: 50%;
+    color: hsl(14, 45%, 36%);
+    list-style: none;
+}
+
+.ingr{
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.ingr h2{
+    margin-bottom: 10px;
+}
+
+.ingr li{
+    margin-bottom: 20px;
+}
